@@ -83,6 +83,6 @@ export default function (md, name, opts) {
   }
 
   md.block.ruler.before('fence', name, fence, {
-    alt: ['paragraph', 'reference', 'blockquote', 'list']})
+    alt: ['paragraph', 'reference', 'blockquote']})
   md.renderer.rules[name] = options.render
 }
