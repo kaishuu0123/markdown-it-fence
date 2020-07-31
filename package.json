@@ -1,6 +1,6 @@
 {
   "name": "@kaishuu0123/markdown-it-fence",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "fence customize plugin for markdown-it",
   "repository": {
     "url": "kaishuu0123/markdown-it-fence",
