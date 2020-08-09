@@ -49,6 +49,7 @@ var index = function (md, name, options) {
 
     markup = state.src.slice(mem, pos);
     params = state.src.slice(pos, max);
+    if (!validate(params, markup)) { return false; }
 
     if (marker === marker_char) {
       if (params.indexOf(String.fromCharCode(marker)) >= 0) {
